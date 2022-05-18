@@ -1,3 +1,18 @@
+NOTAS:
+@component = a un decorador,
+selector indica que el app es personalidado.
+
+MODULOS....
+Se recomienda crear modulos para no hacer tan extenso el archivo de app module, ejemplo un modulo de heroes y dentro de ahí crear todo lo relacionado a heroes.ejemplo: heroes.module.ts. (una vez en el archivo creado se importa ngModule y exporta la clase HeroesModule)
+lugo se agregan declarations = los componentes que se tienen de heroe.
+
+export = las cosas que quiero hacer visibles dentro de mi modulo.
+
+Co mmonModule = sirve para usar ngFOR y ngIf
+
+
+
+
 # Bases
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.2.
